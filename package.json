@@ -1,0 +1,23 @@
+{
+  "name": "restify-httpapiserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "joi": "^13.1.2",
+    "nodemon": "^1.17.3",
+    "restify": "^7.1.1",
+    "restify-cors-middleware": "^1.1.1",
+    "sendotp": "^1.2.9"
+  },
+  "devDependencies": {
+    "@types/restify-cors-middleware": "^1.0.1"
+  }
+}
